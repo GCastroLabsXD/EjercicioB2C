@@ -15,9 +15,9 @@
     <link rel="stylesheet" href="../EjercicioB2C/css/estilos.css">
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid background bg-gradient-dark">
         <div class="row">
-            <div class="col-lg-6 Formulario">
+            <div class="col-lg-6">
                 <form action="" id="editForm">
                     <div class="checkbox">
                         <div>
@@ -25,7 +25,8 @@
                             <input id="edit" type="checkbox" name="option" value="edit" hidden="">
                             <button class="btn btn-secondary insert" id="Insert">Insert</button>
                         </div>
-                    </div>
+                    </div> 
+                    <div class="Datos">
                     <div class="Name">
                         <label class="col-sm-2" for="Name"> Nombre: </label>
                         <input class="col-sm-9" Id="Nombre" type="text" name="name">
@@ -47,9 +48,10 @@
                         <input Id="Status" type="checkbox" name="status">
                     </div>
                     <button class="btn btn-secondary" id="submit" type="submit">Submit</button>
+                    </div>
                 </form>
             </div>
-            <div class="col-lg-6 ">
+            <div class="col-lg-6">
                 <p class="Letras">List</p>
                 <div class="products" id="products"></div>
             </div>

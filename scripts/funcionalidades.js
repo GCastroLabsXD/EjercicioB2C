@@ -7,7 +7,7 @@ $(document).ready(function () {
         $.get(urlApi, function (data) {
             data.forEach(element => {
                 let div = document.createElement('div');
-                div.innerHTML = (`<div class="Formulario">
+                div.innerHTML = (`<div class="Datos">
                     <p> Nombre: ${element.name}</p>
                     <p> Desctipcion: ${element.description}</p>
                     <p> Precio: ${element.price} $</p>
