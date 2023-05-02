@@ -56,7 +56,7 @@ $(document).ready(function () {
     }
     getData();
     $('#submit').click(function (e) {
-        // e.preventDefault();
+        e.preventDefault();
         var IsInsert = document.querySelector('#edit').checked;
         dataName = document.querySelector('#Nombre').value;
         dataDescription = document.querySelector('#Description').value;
